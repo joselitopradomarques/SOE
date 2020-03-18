@@ -31,46 +31,38 @@ Para as questões a seguir, use a pasta no endereço https://github.com/DiogoCae
 
 6. Liste somente os arquivos com extensão .txt.
 ```Shell
-cd Downloads
-find . -type f name "*.txt"
+ls -l *.txt
 ```
 7. Liste somente os arquivos com extensão .png.
 ```Shell
-cd Downloads
-find . -type f name "*.png"
+ls -l *.png
 ```
 
 8. Liste somente os arquivos com extensão .jpg.
 ```Shell
-cd Downloads
-find . -type f name "*.jpg"
+ls -l *.jpg
 ```
 
 9. Liste somente os arquivos com extensão .gif.
 ```Shell
-cd Downloads
-find . -type f name "*.gif"
+ls -l *.gif
 ```
 
 10. Liste somente os arquivos que contenham o nome 'cal'.
 ```Shell
-cd Downloads
-find . -type f name "*.jpg"
+ls -l *cal*
 ```
 
 11. Liste somente os arquivos que contenham o nome 'tux'.
 ```Shell
-cd Downloads
-ls | grep tux
+ls -l *tux*
 ```
 
 12. Liste somente os arquivos que comecem com o nome 'tux'.
 ```Shell
-cd Downloads
-ls | grep tux*
+ls -l tux*
 ```
 - Caso queira os nomes que finalizam com tux, procure por: 
 ```Shelle
-cd Downloads
-ls | grep tux*
+ls -l *tux
 ```

@@ -19,7 +19,6 @@ Para todas as questões, escreva os scripts e as chamadas correspondentes no ter
 ./cals.sh MES1 ANO1 MES2 ANO2 MES3 ANO3
 ```
 ```script
-a=$#
 for ((i = 1; i<=a;1))
 do
     mes="${!i}"

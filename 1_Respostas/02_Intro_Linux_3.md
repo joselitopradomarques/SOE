@@ -18,6 +18,17 @@ Para todas as questões, escreva os scripts e as chamadas correspondentes no ter
 ```script
 ./cals.sh MES1 ANO1 MES2 ANO2 MES3 ANO3
 ```
+```script
+a=$#
+for ((i = 1; i<=a;1))
+do
+    mes="${!i}"
+    (( i+=1 ))
+    ano="${!i}"
+    cal $mes $ano
+    (( i+=1 ))
+done
+```
 
 Não limite o script a 3 meses. Ele deve funcionar para vários casos, como por exemplo:
 
